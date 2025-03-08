@@ -8,6 +8,7 @@
 
 
 /* shared styles */
+.secondary-bg{background-color: #FFF8F3;}
 
 .text-primary{
     color:#FD6E0A;
@@ -27,6 +28,7 @@
 }
 .btn{
     color: #FD6E0A;
+    
     border-color: #FD6E0A;
     border-radius: 5px ;
     width: 160px;
@@ -36,6 +38,21 @@
     font-weight: bold;
     opacity: 100%;
     margin-left: 30px;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 /* header styles */
@@ -99,4 +116,30 @@ nav ul li a{
 .banner-profile-pic{
     width: 584px;
     height: 676px;
+}
+
+/* about styles */
+
+.about{border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+margin-top: 261px;
+margin-bottom: 261px;
+margin-left: 230px;
+margin-right: 230px;
+zoom: 77.75%;
+border-style: solid ;
+border-color: #000000;
+}
+.about-items{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 20px;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: 600;
 }
