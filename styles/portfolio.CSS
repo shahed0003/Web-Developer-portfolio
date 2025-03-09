@@ -191,3 +191,43 @@ nav ul li a {
     margin-right: 346px;
     margin-bottom: 50px;
 }
+
+/* experience */
+.resume{zoom: 77.75%;}
+.resume-container{display: flex;
+    gap: 24px;
+    
+
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 113px;
+    margin-bottom: 30px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color:#474747;
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.experience-description{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.margin hr{
+    margin-bottom: 30px;
+}
+.experience{margin-right: 71px;}
+.resume-download-cv{
+    margin-top: 50px;
+}
